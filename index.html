@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body class="container-fluid d-flex flex-column justify-content-center bg-secondary-subtle">
-    <div class="container-sm border border-warning bg-dark border-4 rounded text-white p-3 mt-3 mb-3 header">
+    <div class="container-md border border-warning bg-dark border-4 rounded text-white p-3 mt-3 mb-3 header">
       <div class="row">
         <div class="col-md-6">
           <h1>Bienvenid@</h1>
@@ -22,12 +22,49 @@
       </div>
     </div>
 
-    <div class="container-sm border-bottom border-warning border-4 mb-3"></div>
+    <div class="container-md border-bottom border-danger-subtle border-4 mb-4"></div>
 
     
     <!--Añadir código a partir de aquí-->
 
-    <div class=""></div>
+    <div class="container-md d-flex flex-column justify-content-center align-items-center bg-dark-subtle rounded mb-5">
+      <div class="row w-75 d-flex justify-content-center border border-info border-4 rounded bg-dark text-info p-2 mb-1 mt-3">
+        <div class="col-md-3 d-flex justify-content-center">
+          <div class="rounded-circle border border-info border-4 ratio ratio-1x1 overflow-hidden w-75 p-3">
+            <img src="./imgs/adrianestevez-foto.png" class="object-fit-cover w-100 h-100" alt="imagen de perfil de adrian estevez salamanca">
+          </div>
+        </div>
+        <div class="col-md-8 d-flex flex-column justify-content-end">
+          <h2>Adrián Estévez Salamanca</h2>
+          <h4 class="text-info text-opacity-75">Full Stack Developer</h4>
+          <h5 class="text-info text-opacity-50">Madrid, España</h5>
+        </div> 
+        <div class="col-md-1 d-flex flex-column align-items-end justify-content-end gap-2">
+          <a href="https://github.com/Adr1Est" target="_blank" class="text-info"><i class="fa-brands fa-github fs-1"></i></a>
+          <a href="https://www.linkedin.com/in/adri%C3%A1n-est%C3%A9vez-salamanca-26b512163/" target="_blank" class="text-info"><i class="fa-brands fa-linkedin-in fs-1"></i></a>
+        </div>
+      </div> 
+      <div class="row w-75 d-flex justify-content-center border border-info border-4 rounded bg-dark text-info p-2 mb-3">
+        <button class="btn btn-info" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHobbies" aria-expanded="false" aria-controls="collapseHobbies">
+          Mis Hobbies
+        </button>
+        <div class="collapse" id="collapseHobbies">
+          <div class="card card-body bg-dark">
+            <ul class="list-group">
+              <li class="list-group-item bg-dark text-warning">Impresión 3D 💻</li>
+              <li class="list-group-item bg-dark text-warning">Videojuegos 🎮</li>
+              <li class="list-group-item bg-dark text-warning">Drones 🛩️</li>
+              <li class="list-group-item bg-dark text-warning">Fotografía 📷</li>
+              <li class="list-group-item bg-dark text-warning">Viajar 🌍</li>
+            </ul>
+          </div>
+        </div>
+      </div> 
+    </div>
+
+    <!--Fin de código de Adrián Estévez - Añadir código a partir de aquí-->
+    
+
 
     <!--Bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
