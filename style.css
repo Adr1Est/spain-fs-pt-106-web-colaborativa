@@ -1,0 +1,79 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+.text-muted {
+    color: #7f8c8d !important;
+}
+
+.progress {
+    height: 8px;
+    border-radius: 4px;
+    background-color: #ecf0f1;
+}
+
+.progress-bar {
+    background-color: #3498db;
+}
+
+.contact-info p {
+    margin-bottom: 0.5rem;
+}
+
+.contact-info i {
+    color: #3498db;
+    width: 20px;
+}
+
+.experience-item h5 {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+.experience-item ul {
+    padding-left: 1.5rem;
+}
+
+.experience-item li {
+    margin-bottom: 0.5rem;
+}
+
+.education-item {
+    margin-bottom: 1.5rem;
+}
+
+.education-item:last-child {
+    margin-bottom: 0;
+}
+
+.education-item h5 {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem;
+    }
+    
+    .card {
+        margin-bottom: 1rem;
+    }
+}
+
